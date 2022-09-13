@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&display=swap');
+
+
+.filter {
+    padding: 25px;
+}
+
+.filter__container {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.filter__body {
+    border: solid 2px #e8e8e8;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.filter__form {}
+
+.filter__inp {
+    margin-bottom: 10px;
+}
+
+.filter__inp input {
+    width: 100%;
+    border: solid 2px #e8e8e8;
+    border-radius: 20px;
+    padding: 5px 15px;
+
+}
+
+.filter__inp input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #e8e8e8;
+}
+
+.filter__sel {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.filter__sel img {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.click img {
+    transform: rotate(-180deg);
+}
+
+.filter__desc h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.filter__box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.filter__image {
+    margin-right: 10px;
+}
+
+.filter__details h5{
+    display: inline-block;
+}
+
+.filter__btn {
+    font-size: 24px;
+    line-height: 22px;
+    border-bottom: 3px dashed rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+.filter__details-content-one {
+    display: none;
+padding-top: 15px;
+    width: 100%;
+}
+.filter__details-content-two {
+    padding-top: 15px;
+display: none;
+}
+.filter__details-content-three {
+    padding-top: 15px;
+    display: none;
+}
+.filter__details__checkbox {
+    margin-bottom: 10px;
+}
+.filter__details__checkbox:last-child {
+    margin-bottom: 0;
+}
+.dn {
+    display: none;
+}
+.active-details {
+    display: block;
+}
+.active-details-two {
+    display: block;
+}
+.active-details-three {
+    display: block;
+}
+.filter__text p {
+    margin-bottom: 5px;
+}
+
+.filter__text p:last-child {
+    margin-bottom: 0;
+}
+
+.filter__video-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter__inp-link {
+    width: 100%;
+}
+
+.filter__inp-link input {
+    width: 100%;
+    border: solid 2px #e8e8e8;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.filter__inp-link input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #e8e8e8;
+}
+
+.filter__photo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.filter__load-photo {}
+
+.filter__load-photo input {
+    display: none;
+}
+
+.filter__load-photo label {
+    text-decoration: underline;
+    color: #3982ee;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.filter__textarea {
+    margin-bottom: 15px;
+}
+
+.filter__textarea textarea {
+    max-width: 100%;
+    min-width: 100%;
+    border: solid 2px #e8e8e8;
+    border-radius: 20px;
+    padding: 5px 15px;
+    min-height: 250px;
+    max-height: 350px;
+}
+
+.filter__textarea textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #e8e8e8;
+}
+
+.filter__comments {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.filter__img {
+    margin-right: 10px;
+}
+
+.filter__label {
+    display: flex;
+    align-items: center;
+}
+
+.filter__label input {
+    margin-left: 5px;
+}
+
+.select {
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 10px;
+    border: solid 2px #e8e8e8;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 0;
+}
+
+option {}
+
+/* Убираем стрелочку в IE 10 и 11 */
+.select::-ms-expand {
+    display: none;
+}
+
+/* По клику - убираем обводку и добавляем свою*/
+.select:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #e8e8e8;
+}
+
+.filter__button-form {}
+
+.filter__button-form button {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(11, 190, 107);
+    background-color: rgb(11, 190, 107);
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+.filter__button-form button:hover {
+    background-color: #fff;
+    color: rgb(11, 190, 107);
+
+}
